@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html>  
     <head>    
         <title>강의평가 웹 사이트</title>
@@ -37,6 +37,18 @@
                 </form>
             </div>
         </nav>
+        <section class="container">
+            <form method="get" action="./index.jsp" class="form-incline mt-3">
+                <select name="lectureDvide" class="form-control mx-1 mt-2">
+                    <option value="전체">전체</option>
+                    <option value="전공">전공</option>
+                    <option value="교양">교양</option>
+                    <option value="기타">기타</option>
+                </select>
+                <input type="text" name="search" class="form-control mx-1 mt-2" placeholder="내용을 입력하세요.">
+                <button type="submit" class="btn btn-primary mx-1 mt-2">검색</button>
+            </form>
+        </section>
         <!-- 제이쿼리 자바스크립트 추가하기 -->
         <script src="./js/jquery.min.js"></script>
         <!-- Popper 자바스크립트 추가하기 -->

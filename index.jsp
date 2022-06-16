@@ -21,7 +21,9 @@
                         <a class="nav-link" href="index.jsp">메인</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown">              회원 관리            </a>
+                        <a class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown">
+                            회원 관리
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown">
                             <a class="dropdown-item" href="#">로그인</a>
                             <a class="dropdown-item" href="#">회원가입</a>
